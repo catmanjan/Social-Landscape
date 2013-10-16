@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Social Landscape</string>
+    <string name="fact_pack_list_name" translatable="false">Select a Fact Pack</string>
+    <string name="settings_name" translatable="false">Settings</string>
+    <string name="blank"></string>
+    <string name="fact_pack_info_access">You already have access to this fact pack. Start using it by going back and selecting it from the list.</string>
+    <string name="fact_pack_info_1month">1 Month Subscription - $5.49</string>
+    <string name="fact_pack_info_6month">6 Month Subscription - $15.99</string>
+    <string name="settings_tip1">Login and Sync to secure your subscriptions for reinstalling the app or using a different device</string>
+    <string name="settings_register_text">New to Social Landscape:</string>
+    <string name="settings_register_button">Register</string>
+    <string name="settings_registered_text">Already Registered:</string>
+    <string name="settings_login">Login</string>
+    <string name="bookmarks_prompt">Bookmarks</string>
+    <string name="settings_restore_text">Non-Subscription Purchases</string>
+    <string name="settings_restore_button">Restore</string>
+    <string name="settings_link"><a style="text-decoration:none" href="www.blitzm.com">www.blitzm.com</a></string>
+    <string name="progress_dialog_title">Updating Fact Packs</string>
+    <string name="progress_dialog_message">Loading&#8230;</string>
+    <string name="progress_discreet_message">Updating</string>
+    <string name="fact_pack_url">https://apps.blitzm.com/statisticsserver-test/demographics/fetchDatapackList</string>
+    <string name="indicators_url">https://apps.blitzm.com/statisticsserver-test/demographics/fetchIndicators</string>
+    <string name="email_address">moredata@blitzm.com</string>
+    <string name="email_subject">Social Landscape Request</string>
+    <string name="email_body">Let us know what you would like to see in Social Landscape&#8230;\n\n\n\n\nSent from my Android</string>
+    <string name="http_client_name">SocialLandscape</string>
+    <string name="data_request_content_description">Do you need more data? Submit a data request.</string>
+    <string name="Blitzm_systems">Blitzm Systems Pty Ltd</string>
+    <string name="Example_title_of_barchat">Example title of bar chart</string>
+    <string name="registration_tip">Enter your details below to secure your Social Landscape subscription</string>
+    <string name="registration_email">Email:</string>
+    <string name="registration_password">Password:</string>
+    <string name="registration_repassword">Re-enter Password:</string>
+    <string name="registration_submit">Register</string>
+    <string name="login_submit">Login</string>
+    <string name="register_url">https://apps.blitzm.com/statisticsserver-test/account/registerAccount</string>
+    <string name="registering_dialog_title">Registering Account</string>
+    <string name="login_dialog_title">Logging In</string>
+    <string name="logout_dialog_title">Logging Out</string>
+    <string name="account_title">Current Account</string>
+    <string name="account_sync">Sync</string>
+    <string name="account_restore_title">Non-Subscription Purchases</string>
+    <string name="account_logout">Log Out</string>
+    <string name="account_restore">Restore</string>
+    <string name="login_url">https://apps.blitzm.com/statisticsserver-test/login/j_spring_security_check</string>
+    <string name="logout_url">https://apps.blitzm.com/statisticsserver-test/j_spring_security_logout</string>
+    <string name="factpackInfo_dialog_title">Retrieving the Information</string>
+
+</resources>

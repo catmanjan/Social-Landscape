@@ -1,0 +1,20 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="ListItem" parent="AppBaseTheme">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:background">@drawable/factpack_background</item>
+    </style>
+
+    <style name="ListItemText" parent="AppBaseTheme">
+        <item name="android:textColor">#ffffff</item>
+        <!-- <item name="android:textColor">#FFFFFF</item> -->
+    </style>
+
+</resources>

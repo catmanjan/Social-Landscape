@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".FactPackDetailActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:id="@+id/factpack_detail_map_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="55"
+        android:background="@drawable/map_background"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <fragment
+            android:id="@+id/factpack_detail_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            map:uiRotateGestures="false"
+            map:uiScrollGestures="false"
+            map:uiTiltGestures="false"
+            map:uiZoomControls="false"
+            map:uiZoomGestures="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fact_detail_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="45"
+        android:orientation="horizontal"
+        tools:layout="@android:layout/list_content" >
+    </LinearLayout>
+
+</LinearLayout>
